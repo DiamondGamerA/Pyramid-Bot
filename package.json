@@ -1,0 +1,39 @@
+{
+  "name": "safin",
+  "version": "1.0.0",
+  "description": "info about me",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev src/index.ts",
+    "start": "ts-node src/index.ts",
+    "lint": "eslint src/ --fix",
+    "format": "prettier --write src/",
+    "format-ci": "prettier src/",
+    "lint-ci": "eslint src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/safinsingh/safin.git"
+  },
+  "keywords": [
+    "safin"
+  ],
+  "author": "Safin Singh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/safinsingh/safin/issues"
+  },
+  "homepage": "https://github.com/safinsingh/safin#readme",
+  "dependencies": {
+    "@types/node": "^14.0.27",
+    "ts-node": "^8.10.2"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^3.9.0",
+    "@typescript-eslint/parser": "^3.9.0",
+    "eslint": "^7.6.0",
+    "prettier": "^2.0.5",
+    "ts-node-dev": "^1.0.0-pre.57",
+    "typescript": "^3.9.7"
+  }
+}
